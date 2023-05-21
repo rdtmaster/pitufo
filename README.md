@@ -1,6 +1,6 @@
 # Purpose of this fork
 
-The sole reason for this fork was to cross-compile for win32 (i686/msvc). Download the build here: https://github.com/rdtmaster/pitufo/releases/tag/v1.7.32
+The sole reason for this fork was to cross-compile for win32 (i686/msvc). Download the build here: https://github.com/rdtmaster/pitufo/releases/latest
 
 This fork uses following tools, credits to their authors:
 
