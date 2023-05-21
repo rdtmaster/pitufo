@@ -1,5 +1,12 @@
-[![Build Status](https://dev.azure.com/morpork73/pitufo/_apis/build/status/ian-hamlin.pitufo?branchName=master)](https://dev.azure.com/morpork73/pitufo/_build/latest?definitionId=10&branchName=master)
-![crates.io](https://img.shields.io/crates/v/pitufo.svg)
+# Purpose of this fork
+
+The sole reason for this fork was to cross-compile for win32 (i686/msvc). Download the build here: https://github.com/rdtmaster/pitufo/releases/tag/v1.7.32
+
+This fork uses following tools, credits to their authors:
+
+- https://github.com/TheMrMilchmann/setup-msvc-dev <- action to install MSVC toolchain
+- https://github.com/taiki-e/create-gh-release-action <- action for Rust release
+- https://github.com/ian-hamlin/pitufo <- pitufo itself
 
 # pitufo
 
