@@ -13,9 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: TheMrMilchmann/setup-msvc-dev@v2
-        with:
-          arch: x86
+      #here
       - uses: taiki-e/create-gh-release-action@v1
         with:
           # (optional) Path to changelog.
@@ -30,6 +28,10 @@ jobs:
             os: windows-latest
     runs-on: ${{ matrix.os }}
     steps:
+      - name: set-up MSVC
+      - uses: TheMrMilchmann/setup-msvc-dev@v2
+        with:
+          arch: x86
       - uses: actions/checkout@v3
       - name: Install cross-compilation tools
         uses: taiki-e/setup-cross-toolchain-action@v1
