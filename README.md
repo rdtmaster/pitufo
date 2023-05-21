@@ -2,12 +2,6 @@
 
 The sole reason for this fork was to cross-compile for win32 (i686/msvc). Download the build here: https://github.com/rdtmaster/pitufo/releases/latest
 
-This fork uses following tools, credits to their authors:
-
-- https://github.com/TheMrMilchmann/setup-msvc-dev <- action to install MSVC toolchain
-- https://github.com/taiki-e/create-gh-release-action <- action for Rust release
-- https://github.com/ian-hamlin/pitufo <- pitufo itself
-
 # pitufo
 
 A small application that will walk the given path and replace the content of every json file found.  The file will either be prettified or minified.
